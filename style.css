@@ -134,18 +134,3 @@ button:hover {
     font-weight: 600;
     background-color: rgba(197, 53, 1, 0.726);
 }
-
-
-/* 
-#C::before {
-    content: '';
-    position: absolute;
-    top: 5%;
-    bottom: 5%;
-    left: 5%;
-    right: 5%;
-    border-radius: 8px;
-    z-index: 5;
-    width: 75%;
-    height: 75%;
-} */
