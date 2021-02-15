@@ -3,54 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <div class="calculator-frame">
-        <div class="calculator-body">
-            <div class="screen">
-                <div class='number' id='firstNumberDisplay'></div>
-                <div class="operation-number" id="operationDisplay"></div>
-                <div class="second-number" id="secondNumberDisplay"></div>
-            </div>
-            <div class="buttons-body">
-                <div class="left-aside ">
-                    <div class="fifth-row ">
-                        <button class="operation" id='/'>/</button>
-                        <button class="operation" id="*">*</button>
-                        <button class="operation" id="-">-</button>
-                    </div>
-                    <div class="fourth-row ">
-                        <button class='numbers' id='7'>7</button>
-                        <button class='numbers' id='8'>8</button>
-                        <button class='numbers' id='9'>9</button>
-                    </div>
-                    <div class="third-row ">
-                        <button class='numbers' id='4'>4</button>
-                        <button class='numbers' id='5'>5</button>
-                        <button class='numbers' id='6'>6</button>
-                    </div>
-                    <div class="second-row ">
-                        <button class='numbers' id='1'>1</button>
-                        <button class='numbers' id="2">2</button>
-                        <button class='numbers' id="3">3</button>
-                    </div>
-                    <div class="first-row">
-                        <button class='numbers zero' id='0'>0</button>
-                        <button id="C">C</button>
-                    </div>
-                </div>
-                <div class="right-aside ">
-                    <button class="operation" id="+">+</button>
-                    <button class="operation" id='='>=</button>
-                </div>
-            </div>
+    <div class="calculator-body">
+        <div class="screen">
+            <div class="first-num" id='firstNumberDisplay'></div>
+            <div class="operation" id='operationDisplay'></div>
+            <div class="second-num" id='secondNumberDisplay'></div>
+        </div>
+        <div class="keys">
+            <button class="operation-btn">.</button>
+            <button class="operation-btn" value="operator">*</button>
+            <button class="operation-btn" value="operator">/</button>
+            <button class="delete">C</button>
+
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="operation-btn" value="operator">+</button>
+
+            <button class="num">4</button>
+            <button class="num">5</button>
+            <button class="num">6</button>
+            <button class="operation-btn" value="operator">-</button>
+
+            <button class="num">7</button>
+            <button class="num" value="8">8</button>
+            <button class="num" value="9">9</button>
+            <button class="delete">CE</button>
+
+            <button class="num bigger-size">0</button>
+            <button class="operation-btn  bigger-size" value="operator" style=" background: #E5A844">=</button>
+
         </div>
     </div>
+
+    <div class="light">
+        <i onclick="light()" class="far fa-lightbulb"></i>
+    </div>
+
 </body>
-<script src="main.js "></script>
+<script src="main.js"></script>
 
 </html>
