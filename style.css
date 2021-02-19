@@ -90,4 +90,8 @@ button:focus{
     .bigger-size{
         width: calc(var(--btn-size)*1.7);
     }
+    .light {
+        top: 20px;
+        right: 20px;
+    }
   }
