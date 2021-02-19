@@ -78,7 +78,7 @@ button:focus{
 @media only screen and (max-width: 600px) {
     .calculator-body{
         width: 350px;
-        height: 80vh;
+        height: 570px;
     }
     button{
         width: calc(var(--btn-size)/1.2);
@@ -88,6 +88,6 @@ button:focus{
         font-size: 1.3rem;
     }
     .bigger-size{
-        width: calc(var(--btn-size)*1.5);
+        width: calc(var(--btn-size)*1.7);
     }
   }
