@@ -81,13 +81,13 @@ button:focus{
         height: 80vh;
     }
     button{
-        width: calc(var(--btn-size)/1.5);
-        height: calc(var(--btn-size)/1.5);
+        width: calc(var(--btn-size)/1.2);
+        height: calc(var(--btn-size)/1.2);
         margin-bottom: 5px;
         border: 1px solid rgb(192, 192, 192);
         font-size: 1.3rem;
     }
     .bigger-size{
-        width: calc(var(--btn-size));
+        width: calc(var(--btn-size)*1.5);
     }
   }
